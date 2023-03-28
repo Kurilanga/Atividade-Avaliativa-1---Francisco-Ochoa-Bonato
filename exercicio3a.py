@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 x = sp.Symbol('x')
 f = sp.sin(2*x)/x
 result = sp.limit(f, x, 0)
-print("O limite é: ".format(result))
+print("O limite é: {}".format(result))
 
 #plotando a funcao
 
